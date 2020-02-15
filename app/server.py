@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1v_BWmdJCMhRI6L_yZsPioZuDj2kaJAn0/view?usp=sharing'
-export_file_name = 'unfreezed-stage-ds-swapped.pth'
+export_file_url = 'https://drive.google.com/file/d/1-0xWexQLAqt8vfllItfH1U7DapM0RXap/view?usp=sharing'
+export_file_name = 'export.pkl'
 
 classes = ['ა', 'ბ', 'გ', 'დ', 'ე', 'ვ', 'ზ', 'თ', 'ი', 'ჩ']
 path = Path(__file__).parent
