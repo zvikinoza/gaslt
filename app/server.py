@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/file/d/1v_BWmdJCMhRI6L_yZsPioZuDj2kaJAn0/view?usp=sharing'
+export_file_name = 'unfreezed-stage-ds-swapped.pth'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['ა', 'ბ', 'გ', 'დ', 'ე', 'ვ', 'ზ', 'თ', 'ი', 'ჩ']
 path = Path(__file__).parent
 
 app = Starlette()
